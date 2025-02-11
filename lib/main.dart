@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
-import 'acceuil.dart'; // Assure-toi que le nom du fichier est correct
+//import 'sign_up.dart';  // Import the SignUpPage
+//import 'log_in.dart';   // Import the LogInPage
+import 'acceuil.dart';   // Import your HomePage file
 
 void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: HomePage(),
-  ));
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    );
+  }
 }
