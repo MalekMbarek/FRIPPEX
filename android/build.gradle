@@ -1,3 +1,14 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Use the correct version of Android Gradle Plugin here
+        classpath 'com.android.tools.build:gradle:8.2.1'  // Update to the latest version
+    }
+}
+
 allprojects {
     repositories {
         google()

@@ -1,0 +1,2 @@
+E:/Frippex.3/android/app/.cxx/Debug/1z50523a/x86/CMakeFiles/edit_cache.dir
+E:/Frippex.3/android/app/.cxx/Debug/1z50523a/x86/CMakeFiles/rebuild_cache.dir

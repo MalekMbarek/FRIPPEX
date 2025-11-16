@@ -31,9 +31,19 @@ dependencies:
   flutter:
     sdk: flutter
 
+  geolocator: ^10.1.0
+  geocoding: ^3.0.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+  logger: ^1.1.0
   cupertino_icons: ^1.0.8
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  crypto: ^3.0.1
+  path_provider: ^2.1.2
+  http: ^0.13.4
+  image_picker: ^1.1.2
+
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +55,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -64,6 +77,11 @@ flutter:
     - assets/button_2.png
     - assets/button_3.png
     - assets/log_in_page.png
+    - assets/sign_up.png
+    - assets/Cadre_frippe.png
+    - assets/frippe_liste.png
+    - assets/vendors_bg.jpeg
+    - assets/no_image.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -91,9 +109,9 @@ flutter:
   #         weight: 700
 
   fonts:
-        - family: Adam script
+        - family: Dancingscript
           fonts:
-            - asset: assets/AdamScript.ttf
+            - asset: assets/font/Dancingscript.ttf
 
   #
   # For details regarding fonts from package dependencies,
